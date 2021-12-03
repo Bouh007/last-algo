@@ -1,0 +1,23 @@
+ALGORITHM algorithm_last
+VAR
+    TAB: ARRAY_OF INTEGER;
+    i: INTEGER
+    j: INTEGER
+    n: INTEGER
+BEGIN
+    write('give the length of the table')
+    Read(n)
+    tab.length =n
+    FOR i FROM 0 TO n-2 STEP 1 DO
+    FOR j FROM 0 TO n-1 STEP DO
+if (tab[i]>tab[i+1])
+swap (tab[i],tab[i+1])
+end IF 
+end FOR
+O (n)=c(n-1)(n-2)
+=c(n²-2n-n+3)
+=cn²-2cn-cn+3c
+o(n)=n²
+
+
+END
